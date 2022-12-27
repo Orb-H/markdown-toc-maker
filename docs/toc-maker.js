@@ -5,7 +5,7 @@
 let ps = [];
 
 function toc_init() {
-    let headings = document.querySelectorAll(".post-content > h3,h4,h5,h6");
+    let headings = document.querySelectorAll(".markdown-body > h3,.markdown-body > h4,.markdown-body > h5,.markdown-body > h6");
     let toc = document.getElementById("toc");
     let cur_toc = toc;
     let depth = 0;
