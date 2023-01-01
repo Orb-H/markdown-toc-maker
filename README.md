@@ -8,6 +8,8 @@ A simple js file for making ToC of markdown file
 
 1. Create a `<ul id="toc">` element where you want. The ToC box will automatically created in it. If needed, add a `<li>` element inside the ul for **Index** string(as example page).
 
+---
+
 1. `<ul id="toc">` element를 원하는 위치에 생성합니다. 목차를 보여주는 박스가 자동으로 생성될 것입니다. 필요하다면, ul 안에 li를 하나 추가하고 **목차** 문자열을 쓸 수 있습니다(예시 페이지에서 확인 가능합니다).
 
 ## Feature / 기능
@@ -15,6 +17,8 @@ A simple js file for making ToC of markdown file
 1. Creates a table of content box where `<ul id="toc">` exists. There are link to each header at the index number of each item in ToC.
 1. Prepends the index number to the header with link to ToC.
 1. If fragment to header is defined in the address, scroll will be automatically set to the corresponding header after 0.5s.
+
+---
 
 1. `<ul id="toc">`에 ToC 박스를 생성합니다. 각 항목의 번호에는 각 헤더로 이동하는 링크가 붙습니다.
 1. 각 헤더에 ToC를 가리키는 링크가 붙은 번호가 붙습니다.
