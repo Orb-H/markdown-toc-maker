@@ -87,4 +87,11 @@ Mauris ut aliquam nisl, in blandit leo. Mauris pretium auctor finibus. Cras elem
 Curabitur lobortis arcu vitae urna auctor, in aliquam justo feugiat. Vivamus fermentum at magna quis consequat. Ut cursus porta massa, molestie faucibus quam egestas sed. Quisque ultricies nisl at libero facilisis, tempus pretium justo condimentum. Cras ornare ipsum pulvinar, volutpat sem gravida, faucibus lacus.
 
 <script src="./toc-maker.js"></script>
+<script>
+    if (document.readyState !== 'loading') {
+        toc_init();
+    } else {
+        window.addEventListener('DOMContentLoaded', toc_init);
+    }
+</script>
 <link rel="stylesheet" href="./toc.css">
