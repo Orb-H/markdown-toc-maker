@@ -32,7 +32,7 @@ Lorem ipsum
 <script src="./toc-maker.js"></script>
 <script>
     if (document.readyState !== 'loading') {
-        toc_init();
+        toc_init(); // default value: toc_init(3, 6);
     } else {
         window.addEventListener('DOMContentLoaded', toc_init);
     }
@@ -127,7 +127,7 @@ Curabitur lobortis arcu vitae urna auctor, in aliquam justo feugiat. Vivamus fer
 <script src="./toc-maker.js"></script>
 <script>
     if (document.readyState !== 'loading') {
-        toc_init();
+        toc_init(); // default value: toc_init(3, 6);
     } else {
         window.addEventListener('DOMContentLoaded', toc_init);
     }

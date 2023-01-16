@@ -30,13 +30,21 @@ You can check how this works in [here](https://orb-h.github.io/markdown-toc-make
 
 [여기](https://orb-h.github.io/markdown-toc-maker/example)에서 예시를 확인할 수 있습니다.
 
+## DONE
+
+### Setting range of header / 헤더의 범위 설정
+
+~~Currently this code treats only h3~h6 as headers. Option to set this range by user is needed.~~
+
+~~현재 이 코드는 h3~h6만을 헤더로 인식하고 처리합니다. 이 범위를 사용자에 따라 동적으로 정할 수 있어야 할 것 같습니다.~~
+
+#### Usage / 사용법
+
+The definition of function was changed from `function toc_init()` to `function toc_init(start=3, end=6)`. Now you can define `start` and `end` as you want, to create toc for only selected range of headers. For example, if you set `start=1` and `end=4`, the code will consider only h1~h4 as headers and provide numbers, and display in toc box.
+
+`function toc_init()`을 `function toc_init(start=3, end=6)`으로 바꾸어 `start`와 `end`에 원하는 범위를 입력하면 해당 헤더에 대해서만 toc를 생성합니다. 예를 들어, `start=1`, `end=4`로 설정하면 h1~h4까지의 헤더만 toc로 인식하여 번호를 부여하고 toc에 표시합니다.
+
 ## TODO
-
-### Range of header / 헤더의 범위
-
-Currently this code treats only h3~h6 as headers. Option to set this range by user is needed.
-
-현재 이 코드는 h3~h6만을 헤더로 인식하고 처리합니다. 이 범위를 사용자에 따라 동적으로 정할 수 있어야 할 것 같습니다.
 
 ### Headers in certain element(s) / 특정 element의 헤더
 

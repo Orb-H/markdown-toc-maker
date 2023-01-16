@@ -4,16 +4,26 @@
 
 let ps = [];
 
-function toc_init() {
-    let headings = document.querySelectorAll(".markdown-body > h3,.markdown-body > h4,.markdown-body > h5,.markdown-body > h6");
+function toc_init(start=3, end=6) {
+    if (start > end || start < 1 || end > 6) return;
+    let target_element = [];
+    for (let i = start; i <= end; i++) {
+        target_element.push(".markdown-body > h" + i);
+    }
+    
+    let query = target_element.join(",");
+    let headings = document.querySelectorAll(query);
     let toc = document.getElementById("toc");
     let cur_toc = toc;
     let depth = 0;
-    let nums = [0, 1, 1, 1];
+    let nums = [0];
+    for (let i = start; i < end; i++) {
+        nums.push(1);
+    }
 
     for (let i = 0; i < headings.length; i++) {
         let element = headings[i];
-        let new_depth = parseInt(element.tagName.substr(1)) - 3;
+        let new_depth = parseInt(element.tagName.substr(1)) - start;
         let prefix = "";
         let prefix2 = "";
 
