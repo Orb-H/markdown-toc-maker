@@ -2,6 +2,44 @@
     <li style="font-weight: bold">Index</li>
 </ul>
 
+### Source Code of this page
+
+```
+<ul id="toc">
+    <li style="font-weight: bold">Index</li>
+</ul>
+
+### Source Code of this page
+
+[code of this page]
+
+### Title
+
+Lorem ipsum
+
+#### Subtitle
+
+...
+
+##### Detail
+
+...
+
+###### More Detail
+
+...
+
+<script src="./toc-maker.js"></script>
+<script>
+    if (document.readyState !== 'loading') {
+        toc_init();
+    } else {
+        window.addEventListener('DOMContentLoaded', toc_init);
+    }
+</script>
+<link rel="stylesheet" href="./toc.css">
+```
+
 ### Title
 
 Lorem ipsum
