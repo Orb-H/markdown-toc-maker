@@ -129,7 +129,7 @@ Curabitur lobortis arcu vitae urna auctor, in aliquam justo feugiat. Vivamus fer
     if (document.readyState !== 'loading') {
         toc_init(); // default value: toc_init(3, 6);
     } else {
-        window.addEventListener('DOMContentLoaded', toc_init);
+        window.addEventListener('DOMContentLoaded', function(event) { toc_init(); });
     }
 </script>
 <link rel="stylesheet" href="./toc.css">
