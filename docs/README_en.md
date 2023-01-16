@@ -4,11 +4,11 @@
 
 A simple js file for making ToC of markdown file
 
-## Requirement
+## Usage
 
 1. Create a `<ul id="toc">` element where you want. The ToC box will automatically created in it. If needed, add a `<li>` element inside the ul for **Index** string(as example page).
 
-## Feature
+## How this works
 
 1. Creates a table of content box where `<ul id="toc">` exists. There are link to each header at the index number of each item in ToC.
 1. Prepends the index number to the header with link to ToC.
