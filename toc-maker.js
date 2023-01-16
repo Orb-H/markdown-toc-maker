@@ -57,9 +57,3 @@ function toc_init() {
         }
     }, 500);
 }
-
-if (document.readyState !== 'loading') {
-    toc_init();
-} else {
-    window.addEventListener('DOMContentLoaded', toc_init);
-}
