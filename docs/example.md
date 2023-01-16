@@ -29,7 +29,7 @@ Lorem ipsum
 
 ...
 
-<script src="https://raw.githubusercontent.com/Orb-H/markdown-toc-maker/main/toc-maker.js"></script>
+<script src="./toc-maker.js"></script>
 <script>
     if (document.readyState !== 'loading') {
         toc_init(); // default value: toc_init(3, 6);
@@ -37,7 +37,7 @@ Lorem ipsum
         window.addEventListener('DOMContentLoaded', function(event) { toc_init(); });
     }
 </script>
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Orb-H/markdown-toc-maker/main/toc.css">
+<link rel="stylesheet" href="./toc.css">
 ```
 
 ### Title
@@ -124,7 +124,7 @@ Mauris ut aliquam nisl, in blandit leo. Mauris pretium auctor finibus. Cras elem
 
 Curabitur lobortis arcu vitae urna auctor, in aliquam justo feugiat. Vivamus fermentum at magna quis consequat. Ut cursus porta massa, molestie faucibus quam egestas sed. Quisque ultricies nisl at libero facilisis, tempus pretium justo condimentum. Cras ornare ipsum pulvinar, volutpat sem gravida, faucibus lacus.
 
-<script src="https://raw.githubusercontent.com/Orb-H/markdown-toc-maker/main/toc-maker.js"></script>
+<script src="./toc-maker.js"></script>
 <script>
     if (document.readyState !== 'loading') {
         toc_init(); // default value: toc_init(3, 6);
@@ -132,4 +132,4 @@ Curabitur lobortis arcu vitae urna auctor, in aliquam justo feugiat. Vivamus fer
         window.addEventListener('DOMContentLoaded', function(event) { toc_init(); });
     }
 </script>
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Orb-H/markdown-toc-maker/main/toc.css">
+<link rel="stylesheet" href="./toc.css">
