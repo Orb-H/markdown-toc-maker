@@ -29,15 +29,15 @@ Lorem ipsum
 
 ...
 
-<script src="./toc-maker.js"></script>
+<script src="https://raw.githubusercontent.com/Orb-H/markdown-toc-maker/main/toc-maker.js"></script>
 <script>
     if (document.readyState !== 'loading') {
         toc_init(); // default value: toc_init(3, 6);
     } else {
-        window.addEventListener('DOMContentLoaded', toc_init);
+        window.addEventListener('DOMContentLoaded', function(event) { toc_init(); });
     }
 </script>
-<link rel="stylesheet" href="./toc.css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Orb-H/markdown-toc-maker/main/toc.css">
 ```
 
 ### Title
