@@ -2,7 +2,9 @@
 
 [한국어](https://github.com/Orb-H/markdown-toc-maker/blob/main/README.md)
 
-A simple js file for making ToC of markdown file
+A simple js file for making table of content + numbering header
+
+referenced the style of ToC and numbering from namu.wiki
 
 ## Usage
 

@@ -2,7 +2,9 @@
 
 [English](https://github.com/Orb-H/markdown-toc-maker/blob/main/README_en.md)
 
-마크다운 파일에 ToC를 만들어주는 간단한 JS 파일
+페이지의 목차 + 각 헤더의 넘버링을 만들어주는 간단한 JS 파일
+
+나무위키 스타일을 참고했습니다
 
 ## 사용법
 
