@@ -1,4 +1,4 @@
-# markdown-toc-maker
+# table-of-content-maker
 
 [한국어](https://github.com/Orb-H/markdown-toc-maker/blob/main/README.md)
 
